@@ -22,7 +22,7 @@
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#22d222"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
@@ -30,39 +30,42 @@
                     "textStyle": {
                       "fontFamily": "Aptos, sans-serif",
                       "fontSize": "11pt",
-                      "color": "#000000"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": " 2,0 %          ",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#f6ee06"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "> 2,0 % < 2,2 %          ",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#f3490c"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "≥ 2,2 %",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   }
                 ]

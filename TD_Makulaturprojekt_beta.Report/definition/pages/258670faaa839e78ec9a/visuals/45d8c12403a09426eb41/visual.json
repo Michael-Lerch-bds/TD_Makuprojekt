@@ -181,19 +181,12 @@
                 }
               }
             },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
             "labelColor": {
               "solid": {
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#44546A'"
+                      "Value": "'#A9B6CE'"
                     }
                   }
                 }
@@ -252,7 +245,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E3E7EE'"
+                      "Value": "'#2B3A57'"
                     }
                   }
                 }
@@ -261,7 +254,7 @@
             "gridlineStyle": {
               "expr": {
                 "Literal": {
-                  "Value": "'solid'"
+                  "Value": "'dashed'"
                 }
               }
             },
@@ -277,7 +270,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#44546A'"
+                      "Value": "'#A9B6CE'"
                     }
                   }
                 }
@@ -382,7 +375,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E3E7EE'"
+                      "Value": "'#2B3A57'"
                     }
                   }
                 }
@@ -391,7 +384,7 @@
             "gridlineStyle": {
               "expr": {
                 "Literal": {
-                  "Value": "'solid'"
+                  "Value": "'dashed'"
                 }
               }
             },
@@ -407,7 +400,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#44546A'"
+                      "Value": "'#A9B6CE'"
                     }
                   }
                 }
@@ -419,19 +412,12 @@
       "labels": [
         {
           "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
             "color": {
               "solid": {
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#1B3A5C'"
+                      "Value": "'#E8EEF9'"
                     }
                   }
                 }
@@ -459,21 +445,21 @@
                 }
               }
             },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'left'"
-                }
-              }
-            },
             "fontColor": {
               "solid": {
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#1B3A5C'"
+                      "Value": "'#E8EEF9'"
                     }
                   }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
                 }
               }
             },
@@ -502,7 +488,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FFFFFF'"
+                      "Value": "'#172136'"
                     }
                   }
                 }
@@ -533,7 +519,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#D9DEE7'"
+                      "Value": "'#2B3A57'"
                     }
                   }
                 }
@@ -542,66 +528,7 @@
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "8D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "dropShadow": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#000000'"
-                    }
-                  }
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "88D"
-                }
-              }
-            },
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Outer'"
-                }
-              }
-            },
-            "preset": {
-              "expr": {
-                "Literal": {
-                  "Value": "'BottomRight'"
-                }
-              }
-            },
-            "shadowBlur": {
-              "expr": {
-                "Literal": {
-                  "Value": "6D"
-                }
-              }
-            },
-            "shadowDistance": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
+                  "Value": "10D"
                 }
               }
             }

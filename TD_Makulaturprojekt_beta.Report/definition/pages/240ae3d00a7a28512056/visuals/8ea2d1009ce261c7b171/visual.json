@@ -22,7 +22,7 @@
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#22d222"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
@@ -30,49 +30,55 @@
                     "textStyle": {
                       "fontFamily": "Aptos, sans-serif",
                       "fontSize": "11pt",
-                      "color": "#000000"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": " ",
                     "textStyle": {
                       "fontSize": "14pt",
-                      "color": "#000000"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "4.500",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   },
                   {
-                    "value": "\t        "
+                    "value": "\t        ",
+                    "textStyle": {
+                      "color": "#E8EEF9"
+                    }
                   },
                   {
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#f6ee06"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "> 4.500 < 5.500       ",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "● ",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#f3490c"
+                      "color": "#E8EEF9"
                     }
                   },
                   {
                     "value": "≥ 5.500",
                     "textStyle": {
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "color": "#E8EEF9"
                     }
                   }
                 ]

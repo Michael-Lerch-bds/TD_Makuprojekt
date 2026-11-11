@@ -74,13 +74,6 @@
                   "Value": "false"
                 }
               }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
-                }
-              }
             }
           }
         }
@@ -163,7 +156,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#1B3A5C'"
+                      "Value": "'#E8EEF9'"
                     }
                   }
                 }
@@ -172,7 +165,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "10D"
                 }
               }
             },
@@ -180,13 +173,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Segoe UI Semibold'"
                 }
               }
             }
@@ -222,16 +208,9 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#44546A'"
+                      "Value": "'#A9B6CE'"
                     }
                   }
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
                 }
               }
             }
