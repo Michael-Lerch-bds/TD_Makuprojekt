@@ -1,0 +1,102 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "8ea2d1009ce261c7b171",
+  "position": {
+    "x": 254.30463576158942,
+    "y": 80.52980132450331,
+    "z": 12000,
+    "height": 69.93377483443709,
+    "width": 457.74834437086093,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#22d222"
+                    }
+                  },
+                  {
+                    "value": "≤",
+                    "textStyle": {
+                      "fontFamily": "Aptos, sans-serif",
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "14pt",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": "4.500",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  },
+                  {
+                    "value": "\t        "
+                  },
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#f6ee06"
+                    }
+                  },
+                  {
+                    "value": "> 4.500 < 5.500       ",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  },
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#f3490c"
+                    }
+                  },
+                  {
+                    "value": "≥ 5.500",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

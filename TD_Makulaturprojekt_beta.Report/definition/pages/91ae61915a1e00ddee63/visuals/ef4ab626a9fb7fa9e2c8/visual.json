@@ -1,0 +1,1149 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "ef4ab626a9fb7fa9e2c8",
+  "position": {
+    "x": 267.5639974931302,
+    "y": 636.8220604541291,
+    "z": 13000,
+    "height": 358.39753169744006,
+    "width": 1631.0543315817383,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Kostenstellen"
+                    }
+                  },
+                  "Property": "Maschine_TXT"
+                }
+              },
+              "queryRef": "Kostenstellen.Maschine_TXT",
+              "nativeQueryRef": "Maschine",
+              "displayName": "Maschine"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "Auftrag_Int"
+                }
+              },
+              "queryRef": "Arbeitsarten.Auftrag_Int",
+              "nativeQueryRef": "Auftrag",
+              "displayName": "Auftrag"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "POrder"
+                    }
+                  },
+                  "Property": "Bogen_Druckform"
+                }
+              },
+              "queryRef": "POrder.Bogen_Druckform",
+              "nativeQueryRef": "Bogen",
+              "displayName": "Bogen"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "CO_Auftrag"
+                }
+              },
+              "queryRef": "Arbeitsarten.CO_Auftrag",
+              "nativeQueryRef": "Auftragsbeschreibung",
+              "displayName": "Auftragsbeschreibung"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Summe_AnfahrMaku"
+                    }
+                  },
+                  "Property": "Datum_Maku"
+                }
+              },
+              "queryRef": "Summe_AnfahrMaku.Datum_Maku",
+              "nativeQueryRef": "Datum",
+              "displayName": "Datum"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Brutto_Exemplare_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Brutto_Exemplare_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Brutto Zyl.-Umdr.",
+              "displayName": "Brutto Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Summe_AnfahrMaku"
+                    }
+                  },
+                  "Property": "M_Brutto_Fortdruck_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Summe_AnfahrMaku.M_Brutto_Fortdruck_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Brutto Fortdruck Zyl.-Umdr.",
+              "displayName": "Brutto Fortdruck Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Gute_Exemplare_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Gute_Exemplare_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Gute Zyl.-Umdr.",
+              "displayName": "Gute Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Druck_Makulatur_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Druck_Makulatur_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Druckmaku Zyl.-Umdr.",
+              "displayName": "Druckmaku Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Summe_AnfahrMaku"
+                    }
+                  },
+                  "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Summe_AnfahrMaku.M_Anfahrmaku_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Anfahrmaku Zyl.-Umdr.",
+              "displayName": "Anfahrmaku Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Summe_AnfahrMaku"
+                    }
+                  },
+                  "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Summe_AnfahrMaku.M_Wechselmaku_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Wechselmaku Zyl.-Umdr.",
+              "displayName": "Wechselmaku Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Ausrüst_Makulatur_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Ausrüst_Makulatur_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Ausrüstmaku Zyl.-Umdr.",
+              "displayName": "Ausrüstmaku Zyl.-Umdr.",
+              "format": "#,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Gesamtmaku_Przt_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Gesamtmaku_Przt_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Gesamtmaku [%] Zyl.-Umdr.",
+              "displayName": "Gesamtmaku [%] Zyl.-Umdr.",
+              "format": "#,0.000 %;-#,0.000 %;#,0.000 %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Arbeitsarten"
+                    }
+                  },
+                  "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                }
+              },
+              "queryRef": "Arbeitsarten.M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle",
+              "nativeQueryRef": "Fortdruckmaku [%] Zyl.-Umdr.",
+              "displayName": "Fortdruckmaku [%] Zyl.-Umdr.",
+              "format": "0.000 %;-0.000 %;0.000 %"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Summe_AnfahrMaku"
+                  }
+                },
+                "Property": "Datum_Maku"
+              }
+            },
+            "direction": "Descending"
+          },
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Arbeitsarten"
+                  }
+                },
+                "Property": "Auftrag_Int"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Summe_AnfahrMaku"
+                                    }
+                                  },
+                                  "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "5500D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#F6A689'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 1,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "4500D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 3,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "5500D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#FAF7A4'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 2,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 4,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Anfahrmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "4500D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#C0F2BD'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Summe_AnfahrMaku.M_Anfahrmaku_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Summe_AnfahrMaku"
+                                    }
+                                  },
+                                  "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "1800D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#F6A689'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 1,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "1000D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 3,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "1800D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#FAF7A4'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 2,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 4,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Summe_AnfahrMaku"
+                                        }
+                                      },
+                                      "Property": "M_Wechselmaku_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "1000D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#C0F2BD'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Summe_AnfahrMaku.M_Wechselmaku_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 2,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "Arbeitsarten"
+                                    }
+                                  },
+                                  "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "0.022D"
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#F6A689'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 1,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Arbeitsarten"
+                                        }
+                                      },
+                                      "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0.02D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 3,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Arbeitsarten"
+                                        }
+                                      },
+                                      "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0.022D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#FAF7A4'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 2,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Arbeitsarten"
+                                        }
+                                      },
+                                      "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 4,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "Arbeitsarten"
+                                        }
+                                      },
+                                      "Property": "M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "0.02D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#C0F2BD'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Arbeitsarten.M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#222B36'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F3F5F9'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "220.89827038292304D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "POrder.Bogen_Druckform"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "81.23531904164423D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Brutto_Exemplare_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "108.470572783298D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Summe_AnfahrMaku.M_Brutto_Fortdruck_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "79.14066734966477D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Gute_Exemplare_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "84.99489048255113D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Druck_Makulatur_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "105.18670112851544D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Summe_AnfahrMaku.M_Anfahrmaku_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "93.46827766391587D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Summe_AnfahrMaku.M_Wechselmaku_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.47059162793484D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Ausrüst_Makulatur_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "99.04087735252863D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Gesamtmaku_Przt_Zyl_Umdr_Tabelle"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106.89762813387173D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Arbeitsarten.M_Fortdruckmaku_Przt_Zyl_Umdr_Tabelle"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1B3A5C'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "outline": {
+              "expr": {
+                "Literal": {
+                  "Value": "'None'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#E3E7EE'"
+                    }
+                  }
+                }
+              }
+            },
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9DEE7'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9DEE7'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#000000'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "88D"
+                }
+              }
+            },
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Outer'"
+                }
+              }
+            },
+            "preset": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BottomRight'"
+                }
+              }
+            },
+            "shadowBlur": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            },
+            "shadowDistance": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

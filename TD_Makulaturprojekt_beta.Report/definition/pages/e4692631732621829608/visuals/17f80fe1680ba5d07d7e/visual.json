@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "17f80fe1680ba5d07d7e",
+  "position": {
+    "x": 16.255879586077143,
+    "y": 1020.507996237065,
+    "z": 3000,
+    "height": 59.604891815616185,
+    "width": 37.930385700846664,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "BurdaDruck_B5299036819513994.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {}
+  },
+  "howCreated": "InsertVisualButton"
+}

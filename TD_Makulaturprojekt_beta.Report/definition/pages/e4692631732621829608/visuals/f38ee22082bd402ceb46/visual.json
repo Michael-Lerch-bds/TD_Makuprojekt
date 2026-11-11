@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "f38ee22082bd402ceb46",
+  "position": {
+    "x": 254.03940886699507,
+    "y": 0,
+    "z": 2000,
+    "height": 57.19211822660098,
+    "width": 551.9704433497536,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "TD Makulaturprojekt",
+                    "textStyle": {
+                      "fontFamily": "Segoe (Bold)",
+                      "fontSize": "24pt",
+                      "color": "#1B3A5C"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

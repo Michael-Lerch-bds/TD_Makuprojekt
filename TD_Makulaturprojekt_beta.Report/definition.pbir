@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/2.0.0/schema.json",
+  "version": "4.0",
+  "datasetReference": {
+    "byConnection": {
+      "connectionString": "Data Source=powerbi://api.powerbi.com/v1.0/myorg/BurdaDruck_DEV;initial catalog=\"BurdaDruck Datenmodell\";cube=Modell;access mode=readonly;semanticmodelid=4d4d4047-6407-4ca9-84c3-855981071503"
+    }
+  }
+}

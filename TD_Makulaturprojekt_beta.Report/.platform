@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TD_Makulaturprojekt_beta"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5f51a294-3225-49cf-ab25-968680eed895"
+  }
+}

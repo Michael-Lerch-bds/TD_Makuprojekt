@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "74aa5f97b0d755455d28",
+  "displayName": "Überproduktion",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3F5F9'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "41fba61b3dbbacebf278",
+      "target": "046a038fbc2c2a4b2f95",
+      "type": "NoFilter"
+    },
+    {
+      "source": "41fba61b3dbbacebf278",
+      "target": "8579894b5276d9de09d7",
+      "type": "NoFilter"
+    }
+  ]
+}

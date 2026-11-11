@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "97762259e9ee1e683dff",
+  "position": {
+    "x": 267.3399014778325,
+    "y": 79.80295566502463,
+    "z": 9000,
+    "height": 70.49261083743842,
+    "width": 569.2610837438424,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#22d222"
+                    }
+                  },
+                  {
+                    "value": "≤",
+                    "textStyle": {
+                      "fontFamily": "Aptos, sans-serif",
+                      "fontSize": "11pt",
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "value": " 2,0 %          ",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  },
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#f6ee06"
+                    }
+                  },
+                  {
+                    "value": "> 2,0 % < 2,2 %          ",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  },
+                  {
+                    "value": "● ",
+                    "textStyle": {
+                      "fontSize": "24pt",
+                      "color": "#f3490c"
+                    }
+                  },
+                  {
+                    "value": "≥ 2,2 %",
+                    "textStyle": {
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

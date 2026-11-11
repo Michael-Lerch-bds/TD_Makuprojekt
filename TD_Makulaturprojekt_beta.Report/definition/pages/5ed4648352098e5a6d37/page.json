@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "5ed4648352098e5a6d37",
+  "displayName": "Fortdruckmakulatur",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3F5F9'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "a27e43ce1481c4c8284e",
+      "target": "b4a7cabad82bed880b30",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a27e43ce1481c4c8284e",
+      "target": "e083b2432dc07480318d",
+      "type": "NoFilter"
+    }
+  ]
+}

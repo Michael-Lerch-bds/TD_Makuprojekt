@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "422819dfd65de06a030d",
+  "displayName": "Anfahrmaku - Zylinderwechsel",
+  "displayOption": "FitToPage",
+  "height": 1080,
+  "width": 1920,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F3F5F9'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "b8c75f397832d20e0059",
+      "target": "785cb6c46d33d843d541",
+      "type": "NoFilter"
+    },
+    {
+      "source": "b8c75f397832d20e0059",
+      "target": "44b9951d120332e790c9",
+      "type": "NoFilter"
+    }
+  ]
+}

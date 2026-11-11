@@ -1,0 +1,102 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "displayName": "Relativ",
+  "name": "002441d6775e7d4e7a74",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "0b050cdf745dcdeb90d3",
+      "16a5ab01a62e14b6cd98",
+      "32fd5d95ada631679c60",
+      "9d3120fb40a21520e209",
+      "e79f6900b49920bc9e60",
+      "419dc4abea0ddde1951c"
+    ],
+    "suppressActiveSection": true,
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "128dd9304b5070b39e4b",
+    "filters": {
+      "byName": {
+        "4f2e7d9d94174bbdaea5": {
+          "name": "4f2e7d9d94174bbdaea5",
+          "type": "Categorical",
+          "filter": {
+            "Version": 2,
+            "From": [
+              {
+                "Name": "k",
+                "Entity": "Kostenstellen",
+                "Type": 0
+              }
+            ],
+            "Where": [
+              {
+                "Condition": {
+                  "In": {
+                    "Expressions": [
+                      {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "k"
+                            }
+                          },
+                          "Property": "Bereich"
+                        }
+                      }
+                    ],
+                    "Values": [
+                      [
+                        {
+                          "Literal": {
+                            "Value": "'TD-Maschine'"
+                          }
+                        }
+                      ]
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "Kostenstellen"
+                }
+              },
+              "Property": "Bereich"
+            }
+          },
+          "howCreated": 1
+        }
+      }
+    },
+    "sections": {
+      "128dd9304b5070b39e4b": {
+        "visualContainers": {}
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "true"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
